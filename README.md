@@ -10,7 +10,7 @@ commbase-tts-pyttsx3 is a Python application that utilizes text-to-speech capabi
 <img alt="commbase-tts-pyttsx3" src="commbase-tts-pyttsx3.jpg?raw=true" width="512" height="512" />
 
 
-## Usage
+## Examples
 
 ``` sh
 shell> cat file.txt | python commbase_tts_pyttsx3.py
