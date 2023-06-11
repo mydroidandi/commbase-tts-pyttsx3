@@ -5,7 +5,7 @@
 
 ## Introduction
 
-commbase-stt-whisper-p is an ASR (Automatic Speech Recognition) engine. It is capable of converting spoken language into written text without requiring an internet connection, making it a reliable and secure solution for any application that needs speech-to-text functionality.
+commbase-tts-pyttsx3 is a Python application that utilizes text-to-speech capabilities to read out the content of a file or any input text provided. It uses the pyttsx3 library for text-to-speech functionality.
 
 <img alt="commbase-tts-pyttsx3" src="commbase-tts-pyttsx3.jpg?raw=true" width="512" height="512" />
 
