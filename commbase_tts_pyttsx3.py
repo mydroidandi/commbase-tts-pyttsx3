@@ -5,7 +5,7 @@
 # Conversational AI Assistant and AI Hub for Computers and Droids              #
 #                                                                              #
 # Change History                                                               #
-# 04/29/2023  Esteban Herrera Original code.                                   #
+# 06/10/2023  Esteban Herrera Original code.                                   #
 #                           Add new history entries as needed.                 #
 #                                                                              #
 #                                                                              #
@@ -33,9 +33,6 @@
 # commbase_tts_pyttsx3.py
 # Utilizes text-to-speech capabilities to read out the content of a file or any
 # input text provided.
-# Examples:
-# shell> cat file.txt | python3.11 commbase_tts_pyttsx3.py
-# shell> echo "Hellow World" | python3.11 commbase_tts_pyttsx3.py
 
 # Requirements
 import fileinput
@@ -50,8 +47,8 @@ def set_up_text_to_speech():
 	"""
 	engine = pyttsx3.init()
 	voices = engine.getProperty('voices')
-	engine.setProperty('rate', 145)
-	engine.setProperty('voice', voices[18].id)  # TODO: Add to the file INSTALL
+	engine.setProperty('rate', 145)  # Voice speed
+	engine.setProperty('voice', voices[18].id)  # Uses a selected voice index in voices
 	return engine, voices
 
 
@@ -113,3 +110,4 @@ def main():
 # directly as the main program.
 if __name__ == '__main__':
 	main()
+
