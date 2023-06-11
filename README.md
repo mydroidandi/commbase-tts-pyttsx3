@@ -12,7 +12,7 @@ commbase-tts-pyttsx3 is a Python application that utilizes text-to-speech capabi
 
 ## Usage
 
+``` sh
 shell> cat file.txt | python commbase_tts_pyttsx3.py
-
 shell> echo "Hellow World" | python commbase_tts_pyttsx3.py
-
+```
