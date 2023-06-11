@@ -16,14 +16,14 @@ To use the commbase_tts_pyttsx3.py app, you can follow these examples:
 ### Example 1: Reading from a file
 
 ``` sh
-shell> cat file.txt | python commbase_tts_pyttsx3.py
+cat file.txt | python commbase_tts_pyttsx3.py
 ```
 
 This command reads the content of the file.txt file and passes it as input to the commbase_tts_pyttsx3.py script. The script converts the text to speech and plays it back.
 
 ### Example 2: Providing input directly
 ``` sh
-shell> echo "Hello World!" | python commbase_tts_pyttsx3.py
+echo "Hello World!" | python commbase_tts_pyttsx3.py
 ```
 
 This command provides the input text "Hello World!" directly to the commbase_tts_pyttsx3.py script. The script converts the text to speech and plays it back.
