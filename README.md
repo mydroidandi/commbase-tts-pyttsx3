@@ -11,8 +11,6 @@ commbase-tts-pyttsx3 is a Python application that utilizes text-to-speech capabi
 
 The specific languages and variants available depend on the text-to-speech voices installed on your system. Here are some common examples:
 
-### Example languages and variants supported
-
 - **Chinese (zh):**
   - zh_CN (Mandarin Chinese as spoken in Mainland China)
   - zh_TW (Mandarin Chinese as spoken in Taiwan)
